@@ -35,7 +35,7 @@ useEffect(() => {
         setTodos([...todos].concat(newTodo));
     } else {
 
-        alert("Enter Task");
+        alert("Enter  Task");
     }
     document.getElementById('todoAdd').value = ""
   }
